@@ -1,0 +1,251 @@
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 1.8em;
+    }
+
+    .section-title {
+        font-size: 1.2em;
+    }
+
+    .content-section {
+        padding: 20px;
+    }
+
+    .navigation li {
+        margin: 0 10px;
+    }
+}
+
+body {
+    height: auto;
+    min-height: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #e0edf9; 
+    color: #333;
+}
+
+#header {
+    background:radial-gradient(circle, #93bcf3, #1a5999);
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation li {
+    margin: 0 20px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.content-section {
+    padding: 40px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    flex: 1 0 auto;
+}
+
+.content-section-account {
+    justify-content: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-section-sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #bbdaf7;
+    padding: 20px;
+    margin: auto;
+    margin-top: 120px;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    color: #333;
+    text-align: center;
+
+    a{
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border: 0;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    a:hover{
+        background-color: #0056b3;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #4e7fff;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #1e90ff;
+    box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+.section-title {
+    text-align: center;
+    color: #2f5db3;
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+.section-text {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background:radial-gradient(circle, #93bcf3, #1a5999);
+    color: white;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+    bottom: 0;
+    height: 50px;
+    margin-top:20px ;
+    position:static;
+}
+
+.photo-item{
+    width: 300px;
+    height: auto;
+    padding-left: 20px;
+    position: relative; 
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.company-icon {
+    position: absolute;
+    margin: 20px;
+    margin-left:60px ;
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.dropdown {
+    font-size: 1.3em;
+    cursor: pointer;
+    outline: none;
+    position: flex;
+    flex-direction: row;
+}
+
+.list {
+    width: 120px;
+    height: 25px;
+    font-size: 0.7em;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}
+
+.table-wrapper {
+    width: auto; 
+    overflow-x: auto;
+}
+
+.timetable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8em;
+}
+
+.timetable th, .timetable td {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 100px;
+}
+
+.timetable th {
+    background-color: #f0f0f0;
+}
+
+.timetable tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.timetable tr:hover {
+    background-color: #f1f1f1;
+}
