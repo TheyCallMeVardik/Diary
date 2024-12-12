@@ -5235,11 +5235,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\varda\\source\\repos\\Diary\\Diary\\Diary.csproj",
+      "projectUniqueName": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Diary.csproj",
       "projectName": "Diary",
-      "projectPath": "C:\\Users\\varda\\source\\repos\\Diary\\Diary\\Diary.csproj",
+      "projectPath": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Diary.csproj",
       "packagesPath": "C:\\Users\\varda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\varda\\source\\repos\\Diary\\Diary\\obj\\",
+      "outputPath": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
