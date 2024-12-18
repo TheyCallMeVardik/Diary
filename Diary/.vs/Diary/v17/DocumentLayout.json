@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\varda\\GitHubRepository\\Diary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Program.cs",
+              "RelativeDocumentMoniker": "Diary\\Program.cs",
+              "ToolTip": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Program.cs",
+              "RelativeToolTip": "Diary\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:23:44.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "Diary\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "Diary\\Controllers\\ClassesController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwBQAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:23:24.943Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
