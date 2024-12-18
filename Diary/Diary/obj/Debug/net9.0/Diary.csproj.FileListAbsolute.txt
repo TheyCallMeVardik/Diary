@@ -9,6 +9,9 @@ C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Diary.pdb
 C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Npgsql.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.csproj.AssemblyReference.cache
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.AssemblyInfoInputs.cache
@@ -27,13 +30,9 @@ C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msb
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Diary.props
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Diary.props
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.csproj.Up2Date
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\refint\Diary.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.pdb
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.genruntimeconfig.cache
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\ref\Diary.dll
-C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
