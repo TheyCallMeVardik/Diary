@@ -20,7 +20,6 @@ C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.sourcelink.js
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\scopedcss\bundle\Diary.styles.css
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\scopedcss\projectbundle\Diary.bundle.scp.css
-C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\compressed\4nof9v416t-b9sayid5wm.gz
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\compressed\ijrw9ew3tc-61n19gt1b8.gz
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\compressed\rhbql4zmcj-xtxxf3hu2r.gz
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\compressed\l3z4xb7yc2-bqjiyaj88i.gz
@@ -93,10 +92,14 @@ C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msb
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Diary.props
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Diary.props
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets.pack.json
-C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.csproj.Up2Date
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\refint\Diary.dll
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.pdb
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\Diary.genruntimeconfig.cache
 C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\ref\Diary.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\obj\Debug\net9.0\compressed\4nof9v416t-pa0l76jzuk.gz
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\varda\GitHubRepository\Diary\Diary\bin\Debug\net9.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\varda\\GitHubRepository\\Diary\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|c:\\users\\varda\\githubrepository\\diary\\diary\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEEE6EE4-3431-4D5B-9F6C-C2DE6CD48E74}|Diary\\Diary.csproj|solutionrelative:diary\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Controllers\\ClassesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Diary\\Controllers\\ClassesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,6 +39,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Diary\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Diary\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T19:34:38.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\appsettings.json",
+              "RelativeDocumentMoniker": "Diary\\appsettings.json",
+              "ToolTip": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\appsettings.json",
+              "RelativeToolTip": "Diary\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T19:34:30.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Program.cs",
               "RelativeDocumentMoniker": "Diary\\Program.cs",
@@ -43,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClassesController.cs",
               "DocumentMoniker": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\Controllers\\ClassesController.cs",
               "RelativeDocumentMoniker": "Diary\\Controllers\\ClassesController.cs",
@@ -51,8 +85,7 @@
               "RelativeToolTip": "Diary\\Controllers\\ClassesController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAuwBQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T15:23:24.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T15:23:24.943Z"
             }
           ]
         }

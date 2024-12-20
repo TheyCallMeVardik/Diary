@@ -1,0 +1,91 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="site.css">
+    <script>
+        // Скрипт для отображения или скрытия поля "Класс" при выборе роли "Ученик"
+        function toggleClassField(roleSelect) {
+            const classField = document.getElementById("classField");
+            if (roleSelect.value === "student") {
+                classField.style.display = "block";
+            } else {
+                classField.style.display = "none";
+            }
+        }
+
+        // Скрипт для динамической генерации списка классов
+        function generateClassOptions() {
+            const classSelect = document.getElementById("classSelect");
+            const classLetters = ["А", "Б", "В"];
+            for (let grade = 1; grade <= 11; grade++) {
+                classLetters.forEach(letter => {
+                    const option = document.createElement("option");
+                    option.value = `${grade}${letter}`;
+                    option.textContent = `${grade}${letter}`;
+                    classSelect.appendChild(option);
+                });
+            }
+        }
+
+        // Запускаем генерацию списка классов при загрузке страницы
+        document.addEventListener("DOMContentLoaded", generateClassOptions);
+    </script>
+</head>
+<body>
+    <header>
+        <h2>Регистрация нового пользователя</h2>
+    </header>
+
+    <main>
+        <form method="post" action="@Url.Action("Register", "Account")">
+            <p>
+                <label>Выберите роль:</label>
+                <select name="role" onchange="toggleClassField(this)">
+                    <option value="student">Ученик</option>
+                    <option value="teacher">Учитель</option>
+                    <option value="admin">Администратор</option>
+                </select>
+            </p>
+
+            <!-- Поле "Класс", скрытое по умолчанию -->
+            <p id="classField" style="display: none;">
+                <label>Класс:</label>
+                <select name="class" id="classSelect">
+                    <!-- Список классов будет добавлен через JavaScript -->
+                </select>
+            </p>
+
+            <p>
+                <label>Имя:</label>
+                <input type="text" name="firstName" required>
+            </p>
+            <p>
+                <label>Фамилия:</label>
+                <input type="text" name="lastName" required>
+            </p>
+            <p>
+                <label>Отчество:</label>
+                <input type="text" name="patronymic" required>
+            </p>
+            <p>
+                <label>Номер телефона:</label>
+                <input type="tel" name="phoneNumber" required>
+            </p>
+            <p>
+                <label>Пароль:</label>
+                <input type="password" name="password" required>
+            </p>
+            <p>
+                <button type="submit">Зарегистрироваться</button>
+            </p>
+        </form>
+    </main>
+</body>
+</html>

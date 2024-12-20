@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\wwwroot\\images\\company_icon.jpg",
+      "PackagePath": "staticwebassets\\images\\company_icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\wwwroot\\images\\icon.png",
+      "PackagePath": "staticwebassets\\images\\icon.png"
+    },
+    {
       "Id": "C:\\Users\\varda\\GitHubRepository\\Diary\\Diary\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

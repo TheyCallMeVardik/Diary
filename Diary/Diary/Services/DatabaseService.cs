@@ -1,68 +1,41 @@
-﻿using Npgsql;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Security.Claims;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;  
+using Diary.Data; 
 
-public class DatabaseService
+
+public class DatabaseService : IDatabaseService
 {
-    private readonly string _connectionString;
+    private readonly ApplicationDbContext _context;
 
-    public DatabaseService(string connectionString)
+    public DatabaseService(ApplicationDbContext context)
     {
-        _connectionString = connectionString;
+        _context = context;
     }
 
-    // Получить все классы
-    public async Task<List<Class>> GetClassesAsync()
+    // Вставка пользователя
+    public async Task InsertUserAsync(User user)
     {
-        var classes = new List<Class>();
-
-        using (var connection = new NpgsqlConnection(_connectionString))
-        {
-            await connection.OpenAsync();
-
-            using (var cmd = new NpgsqlCommand("SELECT * FROM public.classes", connection))
-            {
-                using (var reader = await cmd.ExecuteReaderAsync())
-                {
-                    while (await reader.ReadAsync())
-                    {
-                        classes.Add(new Class
-                        {
-                            ClassId = reader.GetInt64(reader.GetOrdinal("class_id")),
-                            ClassName = reader.GetString(reader.GetOrdinal("class name")),
-                            GPA = reader.GetDouble(reader.GetOrdinal("GPA")),
-                            TeacherId = reader.GetInt64(reader.GetOrdinal("teacher_id")),
-                            AdminId = reader.GetInt64(reader.GetOrdinal("admin_id")),
-                            CreatedAt = reader.GetDateTime(reader.GetOrdinal("created_at"))
-                        });
-                    }
-                }
-            }
-        }
-
-        return classes;
+        user.Username = user.FirstName;
+        _context.Users.Add(user);
+        await _context.SaveChangesAsync();
     }
 
-    // Вставить новый класс
-    public async Task InsertClassAsync(Class newClass)
+    // Вставка студента
+    public async Task InsertStudentAsync(Student student)
     {
-        using (var connection = new NpgsqlConnection(_connectionString))
-        {
-            await connection.OpenAsync();
+        _context.Students.Add(student);
+        await _context.SaveChangesAsync();
+    }
 
-            using (var cmd = new NpgsqlCommand("INSERT INTO public.classes (\"class name\", GPA, teacher_id, admin_id, created_at) VALUES (@class_name, @gpa, @teacher_id, @admin_id, @created_at)", connection))
-            {
-                cmd.Parameters.AddWithValue("class_name", newClass.ClassName);
-                cmd.Parameters.AddWithValue("gpa", newClass.GPA);
-                cmd.Parameters.AddWithValue("teacher_id", newClass.TeacherId);
-                cmd.Parameters.AddWithValue("admin_id", newClass.AdminId);
-                cmd.Parameters.AddWithValue("created_at", newClass.CreatedAt);
+    // Вставка преподавателя
+    public async Task InsertTeacherAsync(Teacher teacher)
+    {
+        _context.Teachers.Add(teacher);
+        await _context.SaveChangesAsync();
+    }
 
-                await cmd.ExecuteNonQueryAsync();
-            }
-        }
+    // Вставка администратора
+    public async Task InsertAdminAsync(Administrator admin){
+        _context.Administrators.Add(admin);
+        await _context.SaveChangesAsync();
     }
 }
