@@ -49,8 +49,8 @@ public class AccountController : Controller
                 Patronymic = model.Patronymic,
                 PhoneNumber = model.PhoneNumber,
                 Username = user.Username,
-                Password = user.Password
-                //прописать условие, при котором название класса соответствует id в таблице classes для привязки ученика к классу
+                Password = user.Password,
+                ClassId = long.Parse(model.SelectedClassKey)
             };
 
             await _databaseService.InsertStudentAsync(student);
